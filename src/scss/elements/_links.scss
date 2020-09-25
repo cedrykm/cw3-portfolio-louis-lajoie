@@ -1,13 +1,10 @@
 a{
-  :link{
+
     color: var(--color-link);
     text-decoration: none;
-  }
-  &:visited{
-    color: var(--color-link-visited);
-  }
+
   &:hover{
-    color: var(--color-hover);
+    color: var(--color-link-hover);
     text-decoration: underline;
   }
   &:active{

@@ -1,0 +1,38 @@
+.hero{
+  background-color: var(--color-secondary);
+  padding: var(--padding-large) var(--padding-thin) 0 var(--padding-thin);
+  text-align: center;
+
+  h1{
+    margin: 0;
+  }
+
+  h4{
+    margin: 0;
+  }
+
+  .flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .photo{
+    width: 60%;
+    margin-top: 30px;
+  }
+
+}
+
+@media screen and (min-width: $vw-medium){
+
+  .hero{
+    .flex{
+      flex-direction: row;
+
+      div{
+        width: 48%;
+      }
+    }
+  }
+
+}

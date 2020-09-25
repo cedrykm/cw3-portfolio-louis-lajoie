@@ -1,0 +1,12 @@
+.btn{
+  color: var(--color-primary);
+  background: var(--color-degrade);
+
+  padding: var(--padding-thin) var(--padding-large);
+
+  &:hover{
+    color: var(--color-primary);
+    text-decoration: none;
+    background: var(--color-tertiary);
+  }
+}
